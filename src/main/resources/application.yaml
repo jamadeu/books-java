@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: books
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres?schema=book
+    username: myuser
+    password: secret
